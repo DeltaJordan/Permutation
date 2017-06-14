@@ -12,6 +12,7 @@ namespace Permutation
 
         static void Main(string[] args)
         {
+            // Shows that performance lacks for large words. Also seems to fail to add items to the list after a certain point.
             string input1 = "pneumonoultramicroscopicsilicovolcanoconiosis";
             string input2 = "pneumonoultramicroscopicsilicovolcanoconiossi";
 
